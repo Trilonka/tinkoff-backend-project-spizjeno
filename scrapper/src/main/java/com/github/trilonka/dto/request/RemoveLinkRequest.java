@@ -1,0 +1,6 @@
+package com.github.trilonka.dto.request;
+
+import java.net.URI;
+
+public record RemoveLinkRequest(URI link) {
+}
